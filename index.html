@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Plate 450</title>
+<meta name="description" content="Plate 450: a free diary for ballplayers today, with a kitchen and merchandise on the way.">
+<meta name="theme-color" content="#2C2C2A">
+<meta property="og:title" content="Plate 450">
+<meta property="og:description" content="A free diary for every ballplayer. A kitchen and merchandise are coming soon.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+:root{--charcoal:#2C2C2A;--ink:#1F1F1D;--mustard:#EF9F27;--brown:#412402;--cream:#F5EFE0;--muted:#B9B3A4}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--charcoal);color:var(--cream);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--mustard);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--mustard);color:var(--brown);padding:8px 12px;border-radius:8px;z-index:9}
+.skip:focus{left:8px}
+/* Standard site menu: the same bar will go on every Plate 450 site */
+.bar{background:var(--ink);border-bottom:1px solid #444340}
+.bar-in{max-width:1040px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.bar .home{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;letter-spacing:.04em}
+.bar .home img{width:32px;height:32px}
+.bar nav{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}
+.bar nav a,.bar nav span{padding:6px 12px;border-radius:999px;font-size:.92rem;text-decoration:none}
+.bar nav a:hover{background:#3a3a37}
+.bar nav [aria-current=page]{background:var(--cream);color:var(--charcoal);font-weight:700}
+.bar nav .soon{color:var(--muted);cursor:default}
+.bar nav .soon i{font-style:normal;font-size:.7rem;border:1px solid #666;border-radius:6px;padding:1px 5px;margin-left:6px}
+main{flex:1;width:100%;max-width:1040px;margin:0 auto;padding:40px 20px 56px}
+.hero{text-align:center;margin-bottom:36px}
+.hero img{width:112px;height:112px}
+.hero h1{margin:14px 0 6px;font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em}
+.hero p{margin:0 auto;max-width:34ch;color:var(--muted);font-size:1.08rem}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;list-style:none;margin:0;padding:0}
+@media(max-width:820px){.grid{grid-template-columns:1fr;max-width:460px;margin:0 auto}}
+.card{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;min-height:300px;padding:28px 20px;border-radius:22px;text-align:center;overflow:hidden;text-decoration:none;isolation:isolate}
+.card .label{font-weight:700;font-size:1.15rem}
+.card .sub{font-size:.95rem;opacity:.85;max-width:24ch}
+/* Diary: live */
+.diary{background:var(--cream);color:var(--charcoal);transition:transform .15s ease,box-shadow .15s ease}
+.diary:hover,.diary:focus-visible{transform:translateY(-4px);box-shadow:0 14px 30px rgba(0,0,0,.35)}
+.diary .logo{display:flex;align-items:center;gap:12px}
+.diary .logo img{width:84px;height:84px}
+.diary .name{font-weight:800;font-size:1.6rem;line-height:1;text-align:left;letter-spacing:-.01em}
+.diary .name small{display:block;font-weight:600;font-size:.8rem;letter-spacing:.3em;color:var(--brown);margin-top:6px}
+.diary .go{display:inline-flex;align-items:center;gap:8px;background:var(--mustard);color:var(--brown);font-weight:700;padding:10px 18px;border-radius:999px}
+/* Coming soon */
+.soon-card{background:#353533;color:var(--cream);border:1px dashed #6b6860}
+.art{display:flex;align-items:center;justify-content:center;height:120px}
+.blur{filter:blur(5px);opacity:.95}
+.watermark{position:absolute;top:30px;right:-52px;width:200px;text-align:center;transform:rotate(38deg);padding:6px 0;background:rgba(245,239,224,.16);border-top:2px solid rgba(245,239,224,.7);border-bottom:2px solid rgba(245,239,224,.7);color:var(--cream);font-weight:800;letter-spacing:.2em;font-size:.72rem;text-transform:uppercase;z-index:2;pointer-events:none}
+.mustard-logo{display:flex;flex-direction:column;align-items:center;line-height:.9;font-weight:900}
+.mustard-logo .m{font-size:2.3rem;letter-spacing:-.02em;color:var(--mustard)}
+.mustard-logo .n{margin-top:6px;background:var(--mustard);color:var(--brown);font-size:2.3rem;padding:2px 14px 4px;border-radius:10px;letter-spacing:.02em}
+.note{margin:36px auto 0;text-align:center;color:var(--muted);font-size:.95rem;max-width:52ch}
+footer{border-top:1px solid #444340;padding:20px;text-align:center;color:var(--muted);font-size:.85rem}
+footer a{color:var(--cream)}
+@media(max-width:520px){.bar nav{margin-left:-12px}}
+@media(prefers-reduced-motion:reduce){.diary{transition:none}.diary:hover{transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="bar-in">
+    <a class="home" href="/" aria-label="Plate 450 home"><img src="crest.svg" alt="">PLATE 450</a>
+    <nav aria-label="Plate 450 sites">
+      <a href="https://diary.plate450.com">Diary</a>
+      <span class="soon" aria-label="Kitchen, coming soon">Kitchen<i>Soon</i></span>
+      <span class="soon" aria-label="Merchandise, coming soon">Merch<i>Soon</i></span>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <img src="crest.svg" alt="Plate 450 crest">
+    <h1>Plate 450</h1>
+    <p>Tools and good things for ballplayers and the people who feed them.</p>
+  </section>
+
+  <ul class="grid">
+    <li>
+      <a class="card diary" href="https://diary.plate450.com" aria-label="Plate 450 Diary: a free career diary for every ballplayer. Opens diary.plate450.com">
+        <span class="logo">
+          <img src="diary-mark.svg" alt="">
+          <span class="name">Plate 450<small>DIARY</small></span>
+        </span>
+        <span class="sub">The free diary for every ballplayer</span>
+        <span class="go">Open the diary &rarr;</span>
+      </a>
+    </li>
+
+    <li>
+      <div class="card soon-card" role="group" aria-label="Kitchen, coming soon">
+        <div class="art blur" aria-hidden="true">
+          <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+            <circle cx="60" cy="60" r="34" fill="#F5EFE0"/><circle cx="60" cy="60" r="24" fill="none" stroke="#2C2C2A" stroke-width="3"/>
+            <path d="M16 20v28c0 5 3 8 7 8v44M23 20v28M30 20v28c0 5-3 8-7 8" stroke="#EF9F27" stroke-width="5" stroke-linecap="round"/>
+            <path d="M104 20c-8 6-10 22-10 36h10v44" stroke="#EF9F27" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <span class="label">Kitchen</span>
+        <span class="sub">Something is cooking.</span>
+        <span class="watermark" aria-hidden="true">Coming soon</span>
+      </div>
+    </li>
+
+    <li>
+      <div class="card soon-card" role="group" aria-label="Merchandise, coming soon">
+        <div class="art" aria-hidden="true">
+          <div class="mustard-logo"><span class="m">MUSTARD</span><span class="n">450</span></div>
+        </div>
+        <span class="label">Merchandise</span>
+        <span class="sub">Gear for the dugout and the stands.</span>
+        <span class="watermark" aria-hidden="true">Coming soon</span>
+      </div>
+    </li>
+  </ul>
+
+  <p class="note">Plate 450 Diary is free and private: no ads, no tracking, and no birthdays collected.</p>
+</main>
+
+<footer>&copy; 2026 Plate 450 &middot; <a href="mailto:Contact.Plate450@gmail.com">Contact</a> &middot; Not affiliated with any league or governing body.</footer>
+</body>
+</html>
